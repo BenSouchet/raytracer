@@ -1,0 +1,82 @@
+<!--------- Global Settings ---------->
+
+<scene>
+	<name>Shepre Noise</name>
+	<ambient>.20</ambient>
+	<max-reflexion>1</max-reflexion>
+</scene>
+
+<!------------ Camera(s) ------------->
+
+<camera>
+	<name>camera 1</name>
+	<position>0.00 0.00 0.00</position>
+	<rotation>0.00 0.00 1.00</rotation>
+	<focal>55</focal>
+</camera>
+
+<camera>
+	<name>skynight</name>
+	<position>0.00 0.00 0.00</position>
+	<rotation>0.00 0.00 1.00</rotation>
+	<focal>55</focal>
+</camera>
+
+<camera>
+	<name>skyday</name>
+	<position>0.00 0.00 0.00</position>
+	<rotation>0.00 0.00 1.00</rotation>
+	<focal>55</focal>
+</camera>
+
+<!------------ Light(s) -------------->
+
+<light>
+	<name>Light 1</name>
+	<type>Diffuse</type>
+	<visibility>True</visibility>
+	<flare-visibility>False</flare-visibility>
+	<position>0.00 0.00 10.00</position>
+	<color-rgb>255.00 255.00 255.00</color-rgb>
+	<intensity>5.00</intensity>
+</light>
+
+<!------------ Object(s) ------------->
+
+<object>
+	<name>Sphere 4</name>
+	<type>Sphere</type>
+	<preset>No Preset</preset>
+	<visibility>True</visibility>
+	<position>-25.00 -10.00 150.50</position>
+	<rotation>0.00 0.00 0.00</rotation>
+	<color-rgb>51.00 24.48 9.18</color-rgb>
+	<opacity>1.00</opacity>
+	<radius>12.00</radius>
+	<width>50.00</width>
+	<height>50.00</height>
+	<lenght>50.00</lenght>
+	<reflection>0.00</reflection>
+	<refraction>0</refraction>
+	<specular>0</specular>
+	<shader>8</shader>
+</object>
+
+<object>
+	<name>plan sol</name>
+	<type>Plane</type>
+	<preset>No Preset</preset>
+	<visibility>True</visibility>
+	<position>0.00 20.00 20.00</position>
+	<rotation>0.00 1.00 0.00</rotation>
+	<color-rgb>255.00 200.00 200.00</color-rgb>
+	<opacity>1.00</opacity>
+	<width>10.00</width>
+	<height>10.00</height>
+	<lenght>50.00</lenght>
+	<reflection>0.00</reflection>
+	<refraction>0</refraction>
+	<specular>0</specular>
+	<shader>0</shader>
+</object>
+

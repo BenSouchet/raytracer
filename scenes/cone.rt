@@ -1,0 +1,80 @@
+<!--------- Global Settings ---------->
+
+<scene>
+	<name>Cone</name>
+	<ambient>.20</ambient>
+	<max-reflexion>1</max-reflexion>
+</scene>
+
+<!------------ Camera(s) ------------->
+
+<camera>
+	<name>Default Cam</name>
+	<position>0.00 0.00 0.00</position>
+	<rotation>0.00 0.00 0.00</rotation>
+	<focal>55</focal>
+</camera>
+
+<!------------ Light(s) -------------->
+
+<light>
+	<name>Light 1</name>
+	<type>Diffuse</type>
+	<visibility>True</visibility>
+	<flare-visibility>False</flare-visibility>
+	<position>100.00 0.00 100.00</position>
+	<color-rgb>255.00 255.00 255.00</color-rgb>
+	<intensity>5.00</intensity>
+</light>
+
+<light>
+	<name>Light 2</name>
+	<type>Spot</type>
+	<visibility>True</visibility>
+	<flare-visibility>False</flare-visibility>
+	<position>-100.00 0.00 100.00</position>
+	<color-rgb>255.00 255.00 255.00</color-rgb>
+	<intensity>5.00</intensity>
+</light>
+
+<light>
+	<name>Light 3</name>
+	<type>Spot</type>
+	<visibility>True</visibility>
+	<flare-visibility>False</flare-visibility>
+	<position>0.00 0.00 0.00</position>
+	<color-rgb>255.00 255.00 255.00</color-rgb>
+	<intensity>5.00</intensity>
+</light>
+
+<light>
+	<name>Light 4</name>
+	<type>Spot</type>
+	<visibility>True</visibility>
+	<flare-visibility>False</flare-visibility>
+	<position>0.00 100.00 0.00</position>
+	<color-rgb>255.00 255.00 255.00</color-rgb>
+	<intensity>5.00</intensity>
+</light>
+
+<!------------ Object(s) ------------->
+
+<object>
+	<name>Cone 1</name>
+	<type>Cone</type>
+	<preset>No Preset</preset>
+	<visibility>True</visibility>
+	<position>5.50 -14.50 301.00</position>
+	<rotation>40.00 0.00 29.00</rotation>
+	<color-rgb>255.00 0.00 0.00</color-rgb>
+	<opacity>1.00</opacity>
+	<radius>88.00</radius>
+	<width>50.00</width>
+	<height>31.50</height>
+	<lenght>50.00</lenght>
+	<reflection>0.00</reflection>
+	<refraction>0</refraction>
+	<specular>0</specular>
+	<shader>0</shader>
+</object>
+

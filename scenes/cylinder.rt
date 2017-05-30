@@ -1,0 +1,46 @@
+<!--------- Global Settings ---------->
+
+<scene>
+	<name>Cylinder</name>
+	<ambient>.20</ambient>
+	<max-reflexion>1</max-reflexion>
+</scene>
+
+<!------------ Camera(s) ------------->
+
+<camera>
+	<name>Default Cam</name>
+	<position>0.00 0.00 0.00</position>
+	<rotation>0.00 0.00 1.00</rotation>
+	<focal>55</focal>
+</camera>
+
+<!------------ Light(s) -------------->
+
+<light>
+	<name>Light</name>
+	<type>Diffuse</type>
+	<visibility>True</visibility>
+	<flare-visibility>True</flare-visibility>
+	<position>0.00 0.00 0.00</position>
+	<color-rgb>255.00 255.00 255.00</color-rgb>
+	<intensity>5.00</intensity>
+</light>
+
+<!------------ Object(s) ------------->
+
+<object>
+	<name>Cylinder</name>
+	<type>Cylinder</type>
+	<visibility>True</visibility>
+	<position>-3.00 0.00 400.00</position>
+	<rotation>23.50 82.00 -5.50</rotation>
+	<color-rgb>255.00 0.00 0.00</color-rgb>
+	<opacity>1.00</opacity>
+	<radius>43.00</radius>
+	<width>50.00</width>
+	<height>40.00</height>
+	<lenght>50.00</lenght>
+	<reflection>0.00</reflection>
+	<refraction>0.00</refraction>
+</object>

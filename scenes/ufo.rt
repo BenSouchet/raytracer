@@ -1,0 +1,114 @@
+<!--------- Global Settings ---------->
+
+<scene>
+	<name>UFO</name>
+	<ambient>.20</ambient>
+	<max-reflexion>1</max-reflexion>
+</scene>
+
+<!------------ Camera(s) ------------->
+
+<camera>
+	<name>skynight</name>
+	<position>0.00 0.00 0.00</position>
+	<rotation>0.00 0.00 1.00</rotation>
+	<focal>55</focal>
+</camera>
+
+<camera>
+	<name>skyday</name>
+	<position>0.00 0.00 0.00</position>
+	<rotation>0.00 0.00 1.00</rotation>
+	<focal>55</focal>
+</camera>
+
+<!------------ Light(s) -------------->
+
+<light>
+	<name>Light 1</name>
+	<type>Diffuse</type>
+	<visibility>True</visibility>
+	<flare-visibility>False</flare-visibility>
+	<position>0.00 0.00 20.00</position>
+	<color-rgb>255.00 255.00 255.00</color-rgb>
+	<intensity>5.00</intensity>
+</light>
+
+<!------------ Object(s) ------------->
+
+<object>
+	<name>Cylinder</name>
+	<type>Cylinder</type>
+	<preset>No Preset</preset>
+	<visibility>True</visibility>
+	<position>0.00 0.00 650.00</position>
+	<rotation>0.00 0.00 0.00</rotation>
+	<color-rgb>255.00 0.00 0.00</color-rgb>
+	<opacity>1.00</opacity>
+	<radius>20.00</radius>
+	<width>50.00</width>
+	<height>0.00</height>
+	<lenght>50.00</lenght>
+	<reflection>0.00</reflection>
+	<refraction>0</refraction>
+	<specular>0</specular>
+	<shader>1</shader>
+</object>
+
+<object>
+	<name>Cylinder</name>
+	<type>Cylinder</type>
+	<preset>No Preset</preset>
+	<visibility>True</visibility>
+	<position>-100.00 1.50 450.00</position>
+	<rotation>0.00 0.00 -19.50</rotation>
+	<color-rgb>159.63 138.72 162.18</color-rgb>
+	<opacity>1.00</opacity>
+	<radius>25.00</radius>
+	<width>50.00</width>
+	<height>50.00</height>
+	<lenght>50.00</lenght>
+	<reflection>0.00</reflection>
+	<refraction>0</refraction>
+	<specular>0</specular>
+	<shader>10</shader>
+</object>
+
+<object>
+	<name>Cylinder</name>
+	<type>Cone</type>
+	<preset>No Preset</preset>
+	<visibility>True</visibility>
+	<position>-100.00 0.00 450.00</position>
+	<rotation>9.00 9.50 -18.00</rotation>
+	<color-rgb>127.50 127.50 127.50</color-rgb>
+	<opacity>1.00</opacity>
+	<radius>95.00</radius>
+	<width>50.00</width>
+	<height>50.00</height>
+	<lenght>50.00</lenght>
+	<reflection>0.00</reflection>
+	<refraction>0</refraction>
+	<specular>0</specular>
+	<shader>10</shader>
+</object>
+
+<object>
+	<name>Cylinder</name>
+	<type>Cylinder</type>
+	<preset>No Preset</preset>
+	<visibility>True</visibility>
+	<position>52.00 -24.00 250.00</position>
+	<rotation>0.00 0.00 0.00</rotation>
+	<color-rgb>127.50 127.50 127.50</color-rgb>
+	<opacity>1.00</opacity>
+	<radius>25.00</radius>
+	<width>50.00</width>
+	<height>50.00</height>
+	<lenght>50.00</lenght>
+	<reflection>0.00</reflection>
+	<refraction>0</refraction>
+	<specular>1</specular>
+	<shader>2</shader>
+</object>
+

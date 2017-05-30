@@ -1,0 +1,143 @@
+<!--------- Global Settings ---------->
+
+<scene>
+	<name>Solar System @ 42 School (Paris)</name>
+	<ambient>.20</ambient>
+	<max-reflexion>1</max-reflexion>
+</scene>
+
+<!------------ Camera(s) ------------->
+
+<camera>
+	<name>Skynight</name>
+	<position>0.00 0.00 2.00</position>
+	<rotation>0.00 0.00 0.00</rotation>
+	<focal>55</focal>
+</camera>
+
+<camera>
+	<name>Skyday</name>
+	<position>0.00 0.00 2.00</position>
+	<rotation>720.00 0.00 1.00</rotation>
+	<focal>55</focal>
+</camera>
+
+<!------------ Light(s) -------------->
+
+<light>
+	<name>Light 01</name>
+	<type>Diffuse</type>
+	<visibility>True</visibility>
+	<flare-visibility>False</flare-visibility>
+	<position>0.00 0.00 20.00</position>
+	<color-rgb>255.00 255.00 255.00</color-rgb>
+	<intensity>5.00</intensity>
+</light>
+
+<light>
+	<name>Light 02</name>
+	<type>Spot</type>
+	<visibility>True</visibility>
+	<flare-visibility>False</flare-visibility>
+	<position>8.50 0.00 20.00</position>
+	<color-rgb>255.00 255.00 255.00</color-rgb>
+	<intensity>5.00</intensity>
+</light>
+
+<!------------ Object(s) ------------->
+
+<object>
+	<name>Sun</name>
+	<type>Sphere</type>
+	<preset>Sun</preset>
+	<visibility>True</visibility>
+	<position>-50.50 -55.00 390.00</position>
+	<rotation>0.00 0.00 0.00</rotation>
+	<color-rgb>130.05 130.05 127.50</color-rgb>
+	<opacity>1.00</opacity>
+	<radius>90.00</radius>
+	<width>50.00</width>
+	<height>50.00</height>
+	<lenght>50.00</lenght>
+	<reflection>0.00</reflection>
+	<refraction>0</refraction>
+	<specular>0</specular>
+	<shader>1</shader>
+</object>
+
+<object>
+	<name>Moon</name>
+	<type>Sphere</type>
+	<preset>Earth</preset>
+	<visibility>True</visibility>
+	<position>30.00 62.00 155.00</position>
+	<rotation>0.00 0.00 0.00</rotation>
+	<color-rgb>130.00 80.00 9.18</color-rgb>
+	<opacity>1.00</opacity>
+	<radius>40.00</radius>
+	<width>50.00</width>
+	<height>50.00</height>
+	<lenght>50.00</lenght>
+	<reflection>0.00</reflection>
+	<refraction>0</refraction>
+	<specular>0</specular>
+	<shader>10</shader>
+</object>
+
+<object>
+	<name>Earth</name>
+	<type>Sphere</type>
+	<preset>No Preset</preset>
+	<visibility>True</visibility>
+	<position>36.00 0.00 166.00</position>
+	<rotation>0.00 0.00 0.00</rotation>
+	<color-rgb>252.96 255.00 255.00</color-rgb>
+	<opacity>1.00</opacity>
+	<radius>10.00</radius>
+	<width>50.00</width>
+	<height>50.00</height>
+	<lenght>50.00</lenght>
+	<reflection>0.00</reflection>
+	<refraction>0</refraction>
+	<specular>0</specular>
+	<shader>11</shader>
+</object>
+
+<object>
+	<name>Jupiter Part 1</name>
+	<type>Sphere</type>
+	<preset>Jupiter</preset>
+	<visibility>True</visibility>
+	<position>-33.00 19.50 170.00</position>
+	<rotation>2.50 0.00 0.00</rotation>
+	<color-rgb>129.03 105.57 124.95</color-rgb>
+	<opacity>1.00</opacity>
+	<radius>19.00</radius>
+	<width>50.00</width>
+	<height>50.00</height>
+	<lenght>50.00</lenght>
+	<reflection>0.00</reflection>
+	<refraction>0</refraction>
+	<specular>0</specular>
+	<shader>2</shader>
+</object>
+
+<object>
+	<name>Jupiter Part 2</name>
+	<type>Sphere</type>
+	<preset>No Preset</preset>
+	<visibility>True</visibility>
+	<position>-32.00 18.00 170.50</position>
+	<rotation>0.00 -2.00 -2.00</rotation>
+	<color-rgb>134.13 110.16 144.84</color-rgb>
+	<opacity>1.00</opacity>
+	<radius>19.00</radius>
+	<width>50.00</width>
+	<height>50.00</height>
+	<lenght>50.00</lenght>
+	<reflection>0.00</reflection>
+	<refraction>0</refraction>
+	<specular>0</specular>
+	<shader>7</shader>
+</object>
+
