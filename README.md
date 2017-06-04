@@ -5,7 +5,9 @@ The objective is to recreate from scratch a raytracer engine & renderer with a s
 <img align="center" src="http://i.imgur.com/nJ0HpUM.png" width="100%" />
 <br />
 Project created on pure C with SDL (SDL2, SDL2_ttf & SDL2_image) & OpenCL.<br />
-List of options available :
+Quick video (made with Lionel GATIBELZA) : [See the video on Youtube](https://www.youtube.com/watch?v=wXSM4nO9754)
+<br /><br />
+_List of options available_ :
 * Add / Delete elements (Cameras, Lights & Shapes)
 * Outliner (Navigate between elements)
 * Edit elements settings (Cameras, Lights & Shapes)
@@ -34,12 +36,12 @@ make
 ./rt scenes/{SCENE}.rt
 ```
 {SCENE} : The scene you want to open (located in folder 'scenes')<br />
-Example ⇣
+_Example ⇣_
 ```bash
 ./rt scenes/Solar_system.rt
 ```
 
 ## Contact & Copyright
 
-Project done with [Lionel GATIBELZA](https://github.com/lgatibel) & [Erwan RODRIGUES](https://github.com/nawrou)
-If you want to contact me, just send me a mail at **bsouchet@student.42.fr**
+Project done with [Lionel GATIBELZA](https://github.com/lgatibel) & [Erwan RODRIGUES](https://github.com/nawrou)<br />
+If you want to contact me, you can send me a mail at **bsouchet@student.42.fr**
