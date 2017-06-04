@@ -4,12 +4,19 @@ This raytracer is a program developed for my learning course at 42 school (Paris
 The objective is to recreate from scratch a raytracer engine & renderer with a strong interface.<br />
 <img align="center" src="http://i.imgur.com/nJ0HpUM.png" width="100%" />
 <br />
-Several options are available (see [Keyboard shortcuts](https://github.com/BenjaminSouchet/Filler_Visualizer#keyboard-shortcuts) section for more infos) :
-* Play / Pause the progression of the battle
-* Navigation between steps
-* Change colors of the two AI
-* Progression Bar
-* Time elapsed
+Project created on pure C with SDL (SDL2, SDL2_ttf & SDL2_image) & OpenCL.<br />
+List of options available :
+* Add / Delete elements (Cameras, Lights & Shapes)
+* Outliner (Navigate between elements)
+* Edit elements settings (Cameras, Lights & Shapes)
+* Save current scene file (.rt)
+* Export image of the renderer (.png)
+* Set preset on shapes (Earth, Sun, Moon & Jupiter) 
+* Add special effect on rendered image (Cartoon, Reverse, Sobel Effect, Grey, Sepia, Saturate & Pixel Art)
+* Add Skybox (Day & Night)
+* Anti-Aliasing with clustering (render the image on multiple computers)
+* Add Shaders on shapes (Perlin Noise, Wood, Marble (x7))
+* Edit colors of shaders
 
 ## Install & launch
 
@@ -32,43 +39,7 @@ Example ⇣
 ./rt scenes/Solar_system.rt
 ```
 
-## Keyboard shortcuts
+## Contact & Copyright
 
-<table width="100%">
-<thead>
-<tr>
-<td width="65%" height="60px" align="center" cellpadding="0">
-<strong>Description</strong>
-</td>
-<td width="10%" align="center" cellpadding="0">
-<span style="width:70px">&nbsp;</span><strong>Key(s)</strong><span style="width:50px">&nbsp;</span>
-</td>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td valign="top" height="30px">Close the program (aka quit/exit)</td>
-<td valign="top" align="center"><kbd>&nbsp;esc&nbsp;</kbd></td>
-</tr>
-<tr>
-<td valign="top" height="30px">Play / Pause the battle</td>
-<td valign="top" align="center"><kbd>&nbsp;return&nbsp;</kbd></td>
-</tr>
-<tr>
-<td valign="top" height="30px">Change colors of the AI</td>
-<td valign="top" align="center"><kbd>&nbsp;shift&nbsp;</kbd></td>
-</tr>
-<tr>
-<td valign="top" height="30px">View the previous step of the battle</td>
-<td valign="top" align="center"><kbd>&nbsp;◄&nbsp;</kbd></td>
-</tr>
-<tr>
-<td valign="top" height="30px">View the next step of the battle</td>
-<td valign="top" align="center"><kbd>&nbsp;►&nbsp;</kbd></td>
-</tr>
-</tbody>
-</table>
-
-## Contact or contribute
-
-If you want to contact me, or fix / improve this project, just send me a mail at **bsouchet@student.42.fr**
+Project done with [Lionel GATIBELZA](https://github.com/lgatibel) & [Erwan RODRIGUES](https://github.com/nawrou)
+If you want to contact me, just send me a mail at **bsouchet@student.42.fr**
