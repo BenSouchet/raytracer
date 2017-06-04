@@ -1,8 +1,8 @@
 # RT (Raytracer Engine & Renderer)
 
-This raytracer is a program developed for my learning course at 42 school (Paris).<br /><br />
-The objective is to recreate from scratch a raytracer engine & renderer.<br />
-<img align="center" src="https://raw.githubusercontent.com/BenjaminSouchet/Filler_Visualizer/master/visualizer/assets/images/visualizer.gif?token=AQPLEJCwLAqHszv7J7Nw19XqIXDy0HGeks5Y4pZMwA%3D%3D" width="100%" height="544px" />
+This raytracer is a program developed for my learning course at 42 school (Paris).<br />
+The objective is to recreate from scratch a raytracer engine & renderer with a strong interface.<br />
+<img align="center" src="http://i.imgur.com/nJ0HpUM.png" width="100%" />
 <br />
 Several options are available (see [Keyboard shortcuts](https://github.com/BenjaminSouchet/Filler_Visualizer#keyboard-shortcuts) section for more infos) :
 * Play / Pause the progression of the battle
@@ -13,11 +13,12 @@ Several options are available (see [Keyboard shortcuts](https://github.com/Benja
 
 ## Install & launch
 
-### Install it easily
+### Install it
 
 ```bash
 git clone https://github.com/BenjaminSouchet/RT.git ~/RT
 cd ~/RT
+make
 ```
 
 ### Start a scene
@@ -25,7 +26,6 @@ cd ~/RT
 ```
 ./rt scenes/{SCENE}.rt
 ```
-Variables :<br />
 {SCENE} : The scene you want to open (located in folder 'scenes')<br />
 Example ⇣
 ```bash
